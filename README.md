@@ -13,13 +13,6 @@ Demonstrations (from download to visualization) of surface soil moisture (SSM), 
 
 Access to the H SAF ftp is also important in order to download the products (new users can register here for a username and password https://hsaf.meteoam.it/User/Register)
 
-Instructions to run soil moisture demo in terminal:
-
-1. Download Exercises and environment setup from [Cluster Folder](TBD)
-2. Download SSM test data from [Dropbox Repository](TBD)
-3. Run miniconda script: TBD
-4. Activate local environment: TBD 
-5. Run jupyter notebook demo: jupyter-notebook workshop_demo_XXXX.ipynb
 
 
 # Snow
