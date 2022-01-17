@@ -8,6 +8,6 @@ All H SAF products can be ordered and downloaded after a [user registration](htt
 
 # Soil Moisture
 
-The soil moisture demonstration contains code examples to download, read and visualize H SAF soil moisture products.
+The demonstration gives an overview how to download, read and visualize H SAF soil moisture data using the Python programming language. Jupyter notebooks are used to present code examples. H SAF Surface Soil Moisture (SSM) and Root-Zone Soil Moisture (RZSM) products are comprised of either Near Real-Time (NRT), Offline or Data Records (DR) products, which are freely available after user registration at the H SAF data portal. RZSM products are generated from assimilating the ASCAT-derived surface SM in the ECMWF/H SAF land data assimilation system. Additionally, a hydrological exercise will highlight the added value of soil moisture satellite data for flood prediction. Soil moisture conditions have a great impact on the transformation of precipitation into runoff. A correct estimation of the initial soil moisture condition is a critical aspect for operational flood prediction. In the exercise we will test the sensitivity of flood response to initial soil moisture conditions using a simple hydrological model over an African Basin.
 
 # Snow
