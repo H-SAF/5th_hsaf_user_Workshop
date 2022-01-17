@@ -1,0 +1,11 @@
+wget https://repo.anaconda.com/miniconda/Miniconda3-py38_4.10.3-Linux-x86_64.sh -O miniconda.sh
+bash miniconda.sh -b -p $HOME/hsaf_miniconda
+export PATH="$HOME/hsaf_miniconda/bin:$PATH"
+conda config --set always_yes yes --set changeps1 no
+# conda create -n sm_env -c conda-forge numpy=1.19.5 numba cartopy jupyter pykdtree pyresample statsmodels pykdtree pybufr-ecmwf xarray python=3.6
+# source activate sm_env
+conda create -n sm_env -c conda-forge python=3.6 mamba
+source activate sm_env
+mamba install -c conda-forge numpy=1.19.5 numba cartopy jupyter pykdtree pyresample statsmodels pykdtree pybufr-ecmwf xarray pip
+pip install --upgrade pip
+pip install ascat==2.0.3 pytesmo==0.13.3 pygrib h5py cmcrameri tqdm requests
