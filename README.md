@@ -1,17 +1,13 @@
-# 5th_hsaf_user_Workshop
+# 5th H SAF User Workshop
 
-The 5th H SAF User Workshop supported by EUMeTrain (http://eumetrain.org/) will be held in online mode from January 24th, 2022 to January 28th, 2022.
-Part of the workshop will be comprised of demonstration sessions on Friday afternoon (28January). Please find below the description and
-instruction of the demo sessions. 
-Access to the H SAF ftp in order to download the products (new users can register here for a username and password https://hsaf.meteoam.it/User/Register)
+The 5th H SAF User Workshop supported by [EUMeTrain](http://eumetrain.org/) will be held in online in January 24-28 2022. This repository contains instructions, code examples and links to data sets used on the demonstration session of the workshop (Friday, 28th January 2022).
+
+All H SAF products can be ordered and downloaded after a [user registration](https://hsaf.meteoam.it/User/Register) at the [H SAF website](http://h-saf.eumetsat.int). You will receive a username and password to access the H SAF FTP.
 
 # Precipitation
 
 # Soil Moisture
 
-
-
-
-
+The soil moisture demonstration contains code examples to download, read and visualize H SAF soil moisture products.
 
 # Snow
