@@ -1,0 +1,7 @@
+date_interval:
+  end_date: '20211103'
+  start_date: '20211101'
+ext: grib2
+product: h35
+run_flag: Downloaded Data
+selected_date: '20211103'
