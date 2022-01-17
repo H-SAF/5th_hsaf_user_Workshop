@@ -1,0 +1,7 @@
+date_interval:
+  end_date: '20220115'
+  start_date: '20220105'
+ext: H5
+product: h10
+run_flag: Downloaded Data
+selected_date: '20220115'

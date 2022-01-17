@@ -1,0 +1,8 @@
+
+SnowCluster/H10-H34/__pycache__/
+
+SnowCluster/H10-H34/.ipynb_checkpoints/
+
+*.H5
+
+*.tif
