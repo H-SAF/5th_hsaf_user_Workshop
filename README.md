@@ -2,7 +2,9 @@
 
 The 5th H SAF User Workshop supported by [EUMeTrain](http://eumetrain.org/) will be held in online in January 24-28 2022. This repository contains instructions, code examples and links to data sets used on the demonstration session of the workshop (Friday, 28th January 2022).
 
-All H SAF products can be ordered and downloaded after a [user registration](https://hsaf.meteoam.it/User/Register) at the [H SAF website](http://h-saf.eumetsat.int). You will receive a username and password to access the H SAF FTP.
+All H SAF products can be ordered and downloaded after a [user registration](https://hsaf.meteoam.it/User/Register) at the [H SAF website](http://h-saf.eumetsat.int). You will receive a username and password to access the H SAF FTP. 
+The data required for the exercises are available at the [Demonstration session Dataset](https://www.dropbox.com/sh/kevyc8n2gcmml1h/AADhIMceX9eCGFF5JmCvKfria?dl=0)
+Additionally are available from Demonstration session [presentations pre-recordings](https://www.dropbox.com/sh/yu7he29easvvyar/AABr7b2s7QcXNivs-1t9fniOa?dl=0)
 
 # Precipitation
 
