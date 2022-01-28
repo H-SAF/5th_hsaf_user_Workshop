@@ -5,17 +5,18 @@ Created on Tue Jan 11 16:51:12 2022
 
 @author: Daniele Casella Paolo Sano', ISAC CNR
 
-# version 1.0
+# version 1.01
 
 # hsafpp contains functions to read and plot H SAF precipitation products
 
-
+# version 1.01 : bug fixed for h03 and h05 products
 
 
 Notes for future improvements:
     - extract lat,lon from Netcdf in geostationary grid
     - include different projections for mapping
     - extract data for a given basin with a shapefile
+    - plot timeseries
 """
 
 import pygrib
@@ -154,6 +155,12 @@ def read_grib(infilename,xvar):
     att['unitsECMF']=xvar['unit']
     xvar['attributes']=att
     
+    if (xvar['pid']=='h03' or xvar['pid']=='h05') and np.shape(xvar['lat'])==(900,1900):
+        ncfile1 = Dataset('h03coord.nc','r')
+        lat=ncfile1['lat'][:]
+        lon=ncfile1['lon'][:]
+        xvar['lat'    ]=lat
+        xvar['lon'    ]=lon
     return xvar
 
 def ncfileWrite(outfilename,xvar):
