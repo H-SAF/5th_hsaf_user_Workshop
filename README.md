@@ -15,6 +15,7 @@ The demonstration gives an overview how to download, read and visualize H SAF so
 # Snow
 
 # Data
-Data are available here
+Data for the exercise are available here:
 https://www.dropbox.com/sh/2hkfi8jzjv4v6xm/AAAKct8hoz0GxElWz71BjEdHa?dl=0 
-for "Flood Prediction" download test_data.zip, uncompress it and replace all the folder
+
+Note: for "Flood Prediction" download test_data.zip, uncompress it and replace all the folder
