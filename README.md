@@ -1,3 +1,7 @@
+# Disclaimer
+
+The information in this GitHub page is intended for the training activities developed and organized through time by the H SAF consortium. Some material may refer to discontinued H SAF products and the scripts may use superseded versions of the required Python packages. The information and the material are provided on a “as is” basis and will be not updated/maintained in the future, hence it may not work as expected. The user is referred to the new updated material provided by the consortium. For any further inquiries, contact the H SAF user support at us_hsaf@meteoam.it
+
 # 5th H SAF User Workshop
 
 The 5th H SAF User Workshop supported by [EUMeTrain](http://eumetrain.org/) will be held in online in January 24-28 2022. This repository contains instructions, code examples and links to data sets used on the demonstration session of the workshop (Friday, 28th January 2022).
